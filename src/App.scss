@@ -1,0 +1,121 @@
+:root {
+    --primary-color: rgba(255, 208, 60, 1);
+    --secondary-color: rgba(32, 32, 32, 1);
+    --primary-light-color: rgba(255, 237, 83, 1);
+    --secondary-color-light: rgba(255, 255, 255, 0.02);
+    --light-color: rgba(214, 214, 214, 1);
+    --primary-bg-color: #2b2b2b;
+
+    /* TEXT COLORS */
+    --primary-text-color: #fff;
+    --text-white-color: #fff;
+    --text-gray-color: #8B8E93;
+    --text-danger: #FD504F;
+    --text-dark: rgba(255, 255, 255, 0.02);
+    --text-disabled: #636363;
+    --text-color-form-label: rgba(143, 143, 143, 1);
+
+    /* BORDER COLORS */
+    --border-color: #8F8F8F;
+
+}
+
+html * {
+    font-family: 'Urbanist', sans-serif !important;
+    font-size: 1rem;
+    color: var(--text-white-color);
+}
+
+.text-primary {
+    color: var(--primary-color);
+}
+
+.text-gray {
+    color: var(--text-gray-color);
+}
+
+label {
+    font-family: "Urbanist" !important;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: 0.004em;
+    color: #8F8F8F;
+    margin-bottom: 0.5rem;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+div,
+a {
+    font-family: "Urbanist" !important;
+    font-style: normal;
+}
+
+input[disabled] {
+    opacity: 0.5;
+    -webkit-text-fill-color: #fff;
+    color: #fff;
+}
+
+.mainBGcolor {
+    background-color: #0a0a28 !important;
+}
+ .MuiLinearProgress-bar {
+background-color: #F26122 !important;
+}
+.MuiLinearProgress-colorPrimary{
+    background-color: #0CCE6B !important;
+}
+
+ .bottom-row .goals-overview-ctn .itm .current-prg{
+    background: #F26122 !important;
+}
+
+.bottom-row .goals-overview-ctn .itm .remaining-prg{
+    background: #0CCE6B !important;
+}
+ .bottom-row .goals-overview-ctn{
+    display: flex;
+    flex-direction: column;
+}
+
+ .txt-primary {
+    color:#F26122 !important ;
+}
+
+#root > div > div > main > div:nth-child(2) > div > div.MuiGrid-root.MuiGrid-container.MuiGrid-item.MuiGrid-grid-lg-4.css-1cfjo1n-MuiGrid-root > div{
+    // background: rgba(66, 66, 109, 0.3);
+}
+
+.button.pay-btn {
+    color: white !important;
+    background: #F26122;
+    box-shadow: 6px 6px 20px rgba(255, 237, 83, 0.1);
+    border-radius: 12px;
+}
+.css-p83wi6 , .css-1gihjal{
+    border: 1px solid #F26122 !important;
+}
+.App{
+    background: #0A0A28;
+}
+
+
+@media only screen and (max-width: 400px) {
+    .MuiBox-root{
+overflow-x: hidden;
+    }
+  }
+
+  .ccBtn{
+      display: none !important;
+  }

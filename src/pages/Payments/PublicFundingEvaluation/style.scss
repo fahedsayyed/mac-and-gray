@@ -1,0 +1,83 @@
+.MuiTabs-scroller.MuiTabs-fixed {
+    button.Mui-selected {
+        color: #9292AB;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 140%;
+        text-transform: capitalize;
+    }
+
+    .MuiTabs-indicator {
+        background: #9292AB;
+        border: 2px solid #9292AB;
+        border-radius: 12px;
+    }
+
+    .MuiButtonBase-root.MuiTab-root.MuiTab-textColorPrimary {
+        text-transform: capitalize;
+    }
+
+}
+
+// Card
+.pricing-card {
+    border: 1px solid #636363;
+    border-radius: 20px;
+    padding: 20px;
+
+    // Button
+    .MuiCardActions-root {
+        border: 0.5px solid #9292AB;
+        filter: drop-shadow(6px 6px 20px rgba(255, 237, 83, 0.1));
+        border-radius: 12px;
+
+        button {
+            width: 100%;
+            margin: 0 auto;
+            color: #9292AB;
+            text-transform: capitalize;
+        }
+    }
+
+}
+
+.opt-tabpanel {
+    .MuiBox-root {
+        padding: 24px 0;
+    }
+}
+
+
+.pricing-card:hover {
+    transition: all 0.3s ease !important;
+    background: rgba(66, 66, 109, 0.3) !important;
+
+    .fevalBtn {
+        transition: all 0.3s ease !important;
+        background-color: #F26122 !important;
+
+        button {
+            color: white !important;
+        }
+    }
+}
+
+.MuiTabs-scroller.MuiTabs-fixed button.Mui-selected{
+    color: #F26122 !important;
+}
+
+.MuiTabs-scroller.MuiTabs-fixed .MuiTabs-indicator {
+    background: #F26122 !important;
+    border: 2px solid #F26122 !important;
+}
+
+
+.fevalBtn {
+
+
+    button {
+        font-weight: 700 !important;
+        font-size: 16px !important;
+        color: white !important;
+    }
+}

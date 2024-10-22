@@ -1,0 +1,33 @@
+.op-txt-ctn{
+    // margin: 0 1.25rem;
+    margin-bottom: 29px;
+    width: 100%;
+    label{
+        font-family: 'Urbanist';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 140%;
+        letter-spacing: 0.004em;
+        color: #8F8F8F;
+        margin-bottom: 0.5rem;
+    }
+    input{
+        background: rgba(255, 255, 255, 0.02);
+        border-radius: 12px;
+        border: none;
+        padding: 18px 14px;
+    }
+    input:focus{
+        outline: none !important;
+        border: 1px solid #8F8F8F;
+    }
+    input[error='true']{
+        outline: none;
+        border: 1px solid  #FD504F;
+    }
+    p.MuiFormHelperText-root {
+        color: #FD504F;
+        margin-top: 0.5rem;
+    }
+}

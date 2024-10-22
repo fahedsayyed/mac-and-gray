@@ -1,0 +1,68 @@
+.signup-form-ctn{
+    height: 100vh;
+    .banner{
+        // background-image: url("../../../assets/images/signup-bg1.svg");
+        background-color: rgba(255, 208, 60, 1);
+        // background-image: url("../../../assets/images/login_graphic.jpg");
+        background-size: cover;
+        background-repeat: round;
+        width: 100%;
+        position: relative;
+        .banner-text {
+            position: absolute;
+            // bottom: 20%;
+            font-family: 'Urbanist';
+            color: #000;
+            font-style: normal;
+            padding: 0 6rem;
+            h1{
+                color: #000;
+                font-weight: 700;
+                font-size: 42px;
+                line-height: 140%;
+                letter-spacing: 0.004em;
+                margin-bottom: 0.5rem;
+            }
+            p{
+                max-width: 60%;
+                color: #000;
+                font-weight: 400;
+                font-size: 16px;
+                margin-top: 0;
+            }
+        }
+    }
+
+    .df-footer{
+        background-color: #181818;
+        padding: 0.5rem;
+        border: none;
+    }
+}
+
+@media (max-width:900px){
+    .signup-form-ctn{
+        .banner{
+            display: none;
+        }
+    }
+}
+
+// @media (max-width: 600px){
+
+//     .signup-form-ctn{
+//         .banner{
+//             max-height: 126px;
+//             display: none;
+//             .banner-text{
+//                 padding:0 2rem;
+//                 h1{
+//                     margin-top: auto;
+//                 }
+//                 p{
+//                     max-width: unset;
+//                 }
+//             }
+//         }
+//     }
+// }

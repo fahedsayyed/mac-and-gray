@@ -1,0 +1,30 @@
+#btm-nav-paper {
+    #btm-nav {
+        background: #111142;
+        box-shadow: 0px -6px 20px rgba(255, 255, 255, 0.04);
+        min-height: 5rem;
+
+        .MuiButtonBase-root.MuiBottomNavigationAction-root {
+            span.MuiBottomNavigationAction-label {
+                color: #636363;
+            }
+        }
+
+        // Active Tab
+        .MuiButtonBase-root.MuiBottomNavigationAction-root.Mui-selected {
+            background: #111142;
+            box-shadow: -12px 12px 24px #11114239, 12px -12px 24px  #11114239, -12px -12px 24px  #11114239, 12px 12px 30px  #11114239, inset 1px 1px 2px  #11114239, inset -1px -1px 2px rgb(22 22 22 / 50%);
+            border-radius: 20px;
+            margin: 0.5rem;
+
+            .MuiSvgIcon-root svg path {
+                fill: #fff;
+            }
+
+            span.MuiBottomNavigationAction-label {
+                color: #fff;
+            }
+
+        }
+    }
+}
